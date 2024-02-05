@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.button{
+    @apply py-2 px-4 bg-slate-500 text-white rounded hover:bg-slate-600
+}
+
+.login{
+    @apply min-h-screen my-[-56px]
+}
+
+.checkout{
+    display: grid;
+    grid-template-columns: auto 30%;
+}
